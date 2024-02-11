@@ -12,7 +12,7 @@
   .footer {
   display: flex;
   position: relative; 
-  top: 80%; 
+  top: 75%; 
   background-color: rgb(133 198 252);
   justify-content: space-between;
   padding: 0px 40px;
