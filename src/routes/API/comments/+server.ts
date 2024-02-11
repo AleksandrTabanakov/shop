@@ -5,10 +5,9 @@ export function GET(){
 }
 
 export async function POST(message){
-
+  
     let {request} = message;
     let text = await request.json(); 
-       
    let newComments2 = {
         id:comments.length,
        text

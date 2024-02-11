@@ -21,6 +21,8 @@ function changeColor() {
 <a href={`/product`}> product </a>
 
 
+
+<div class={colore} on:click={changeColor}>  </div>
 <button on:click={roll}>Roll the dice</button>
 
 {#if number !== undefined}
@@ -29,9 +31,14 @@ function changeColor() {
 
 
 <style>
-	.box {
+	.red {
 	  width: 100px;
 	  height: 100px;
-
+		background-color: brown;
+	}
+	.blue {
+	  width: 100px;
+	  height: 100px;
+		background-color: yellow;
 	}
 </style>
